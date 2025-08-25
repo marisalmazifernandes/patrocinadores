@@ -1,0 +1,64 @@
+/* Reseta margens e espaçamentos padrão de todos os elementos */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #e6e6e6;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+/* Estilização do cabeçalho */
+header {
+    padding: 20px;              /* espaço interno em volta do texto */
+    text-align: center;         /* centraliza o conteúdo (texto) */
+    background-color: #f1f1f1;  
+}
+
+/* Remove a margem padrão do título do header */
+header h1 {
+    margin: 0;                  
+}
+
+/* Container que organiza os patrocinadores */
+.patrocinadores{
+    display: flex;              /* ativa o flexbox */
+    justify-content: center;    /* centraliza os itens horizontalmente */
+    align-items: center;        /* centraliza os itens verticalmente */
+    gap: 40px;                  /* espaço entre os logos */
+    padding: 50px 20px;         /* espaço interno (em cima/baixo 50px, laterais 20px) */
+    flex-wrap: wrap;            /* permite que os itens quebrem linha em telas menores */
+}
+
+/* Cada logo de patrocinador */
+.logo{
+    background-color:#ff7cab;   
+    border-radius: 50px;        /* cantos arredondados */
+    padding: 20px;              /* espaço interno */
+    width: 200px;               /* largura do bloco */
+    height: 200px;              /* altura do bloco */
+    display: flex;              /* ativa flexbox no container */
+    justify-content: center;    /* centraliza a imagem dentro do bloco */
+}
+
+
+.img{
+    width: 170px;              
+    height: 180px;              
+}
+
+/* Rodapé fixo na parte de baixo da tela */
+footer {
+    background-color: #f1f1f1;   
+    color: #7e7e7e;             
+    text-align: center;          /* centraliza o texto */
+    padding: 15px;               /* espaço interno */
+    font-size: 14px;             /* tamanho da fonte */
+
+    position: fixed;             /* fixa o rodapé na tela */
+    bottom: 0;                   /* cola no fundo */
+    left: 0;                     /* alinha à esquerda */
+    width: 100%;                 /* ocupa toda a largura da tela */
+}
