@@ -28,7 +28,7 @@ header h1 {
     justify-content: center;    /* centraliza os itens horizontalmente */
     align-items: center;        /* centraliza os itens verticalmente */
     gap: 40px;                  /* espaço entre os logos */
-    padding: 50px 20px;         /* espaço interno (em cima/baixo 50px, laterais 20px) */
+    padding: 100px 20px;         /* espaço interno (em cima/baixo 50px, laterais 20px) */
     flex-wrap: wrap;            /* permite que os itens quebrem linha em telas menores */
 }
 
@@ -62,3 +62,4 @@ footer {
     left: 0;                     /* alinha à esquerda */
     width: 100%;                 /* ocupa toda a largura da tela */
 }
+
